@@ -2,12 +2,14 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700&amp;subset=cyrillic" rel="stylesheet">
         <title>Барбершоп «Бородинский»</title>
     </head>
     <body>
         <header class="main-header">
             <div class="wrapper">
-                <img class="logo" src="#"  width="368" height="204" alt="Барбершоп «Бородинский»">
+                <a class="logo-url" href="index.html"><img class="logo" src="img/Logo.png"  width="111" height="24" alt="Барбершоп «Бородинский»"></a>
                 <nav class="main-menu">
                     <ul>
                         <li><a href="#">Информация</a></li>
@@ -59,24 +61,24 @@
                         </label>
                         <h2>Группы товаров:</h2>
                         <label>
-                            Бритвенные принадлежности
                             <input type="radio" name="shaving-staff" value="but1">
-                        </label><br>
+                            Бритвенные принадлежности
+                        </label>
                         <label>
-                            Средства для ухода
                             <input type="radio" name="shaving-staff" value="but2" checked>
-                        </label><br>
+                            Средства для ухода
+                        </label>
                         <label>
-                            Аксессуары
                             <input type="radio" name="shaving-staff" value="but3">
-                        </label><br>
+                            Аксессуары
+                        </label>
                         <input type="submit" value="Показать">
                     </form>
                 </aside>
                 <section class="items-list">
                     <div class="item">
                         <a href="catalog-item.html">
-                            <img class="item-img" src="http://placehold.it/150x100" width="150" height="100" alt="Изображение товара">
+                            <img class="item-img" src="img/catalog/product-4.jpg" width="220" height="165" alt="Изображение товара">
                             <p class="item-description">Набор для путшественника<br>«BAXTER OF CALIFORNIA»</p>
                         </a>
                         <div class="item-price">2900 руб.</div>
@@ -84,7 +86,7 @@
                     </div>
                     <div class="item">
                         <a href="#">
-                            <img class="item-img" src="http://placehold.it/150x100" width="150" height="100" alt="Изображение товара">
+                            <img class="item-img" src="img/catalog/product-1.jpg" width="220" height="165" alt="Изображение товара">
                             <p class="item-description">Увлажняющий кондиционер<br>«BAXTER OF CALIFORNIA»</p>
                         </a>
                         <div class="item-price">750 руб.</div>
@@ -92,7 +94,7 @@
                     </div>
                     <div class="item">
                         <a href="#">
-                            <img class="item-img" src="http://placehold.it/150x100" width="150" height="100" alt="Изображение товара">
+                            <img class="item-img" src="img/catalog/product-3.jpg" width="220" height="165" alt="Изображение товара">
                             <p class="item-description">Гель для волос<br>«SUAVECITO»</p>
                         </a>
                         <div class="item-price">290 руб.</div>
@@ -100,7 +102,7 @@
                     </div>
                     <div class="item">
                         <a href="#">
-                            <img class="item-img" src="http://placehold.it/150x100" width="150" height="100" alt="Изображение товара">
+                            <img class="item-img" src="img/catalog/product-6.jpg" width="220" height="165" alt="Изображение товара">
                             <p class="item-description">Глина для укладки волос<br>«AMERICAN CREW»</p>
                         </a>
                         <div class="item-price">500 руб.</div>
@@ -108,7 +110,7 @@
                     </div>
                     <div class="item">
                         <a href="#">
-                            <img class="item-img" src="http://placehold.it/150x100" width="150" height="100" alt="Изображение товара">
+                            <img class="item-img" src="img/catalog/product-5.jpg" width="220" height="165" alt="Изображение товара">
                             <p class="item-description">Гель для волос<br>«AMERICAN CREW»</p>
                         </a>
                         <div class="item-price">300 руб.</div>
@@ -116,20 +118,18 @@
                     </div>
                     <div class="item">
                         <a href="#">
-                            <img class="item-img" src="http://placehold.it/150x100" width="150" height="100" alt="Изображение товара">
+                            <img class="item-img" src="img/catalog/product-2.jpg" width="220" height="165" alt="Изображение товара">
                             <p class="item-description">Набор для бритья<br>«BAXTER OF CALIFORNIA»</p>
                         </a>
                         <div class="item-price">3900 руб.</div>
                         <a class="btn" href="#">Купить</a>
                     </div>
-                    <nav class="pagination">
-                        <ul>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                        </ul>
-                    </nav>
+                    <ul class="pagination">
+                        <li>1</li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                    </ul>
                 </section>
                 <footer class="main-footer">
                     <div class="wrapper">
