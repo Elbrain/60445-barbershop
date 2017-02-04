@@ -8,9 +8,9 @@
     </head>
     <body>
         <header class="main-header">
-            <div class="wrapper">
-                <a class="logo-url" href="index.html"><img class="logo" src="img/Logo.png"  width="111" height="24" alt="Барбершоп «Бородинский»"></a>
+            <div class="wrapper clearfix">
                 <nav class="main-menu">
+                    <a class="logo-url" href="index.html"><img src="img/Logo.png"  width="111" height="24" alt="Барбершоп «Бородинский»"></a>
                     <ul>
                         <li><a href="#">Информация</a></li>
                         <li><a href="#">Новости</a></li>
@@ -18,60 +18,86 @@
                         <li><a href="#">Магазин</a></li>
                         <li><a href="#">Контакты</a></li>
                     </ul>
+                    <div class="user-block">
+                        <a class="account-enter" href="#">Вход</a>
+                    </div>
                 </nav>
-                <a class="account-enter" href="">Вход</a>
             </div>
         </header>
         <main>
-            <div class="wrapper">
-                <h1>Средства для ухода</h1>
-                <nav class="breadcrumbs">
-                    <ul>
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">Магазин</a></li>
-                        <li><a href="catalog.html">Средства для ухода</a></li>
-                    </ul>
-                </nav>
+            <div class="wrapper clearfix">
+                <div class="mini-header">
+                    <h1>Средства для ухода</h1>
+                    <nav class="breadcrumbs clearfix">
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Магазин</a></li>
+                            <li><a href="catalog.html">Средства для ухода</a></li>
+                        </ul>
+                    </nav>
+                </div>
                 <aside class="filter">
                     <form action="#" method="get">
-                        <h2>Производители:</h2>       
-                        <label>
-                            Baxter of California
-                            <input type="checkbox" name="california" checked>
-                        </label>
-                        <label>
-                            Mr Natty
-                            <input type="checkbox" name="natty">
-                        </label>
-                        <label>
-                            Suayecito
-                            <input type="checkbox" name="suayecito" checked>
-                        </label>
-                        <label>
-                            Malin+Goetz
-                            <input type="checkbox" name="malin">
-                        </label>
-                        <label>
-                            Murray`s
-                            <input type="checkbox" name="murray">
-                        </label>
-                        <label>
-                            American Crew
-                            <input type="checkbox" name="america" checked>
-                        </label>
+                        <h2>Производители:</h2>
+                        <ul>       
+                            <li>
+                                <label>
+                                    <input type="checkbox" name="california" checked>
+                                    Baxter of California
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox" name="natty">
+                                    Mr Natty
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox" name="suayecito" checked>                                
+                                    Suayecito
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox" name="malin">
+                                    Malin+Goetz
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox" name="murray">
+                                    Murray`s
+                                </label>
+                            </li>
+                            <li>
+                            <label>
+                                <input type="checkbox" name="america" checked>
+                                American Crew
+                            </label>
+                            </li>
+                        </ul>
                         <h2>Группы товаров:</h2>
-                        <label>
-                            <input type="radio" name="shaving-staff" value="but1">
-                            Бритвенные принадлежности
-                        </label>
-                        <label>
-                            <input type="radio" name="shaving-staff" value="but2" checked>
-                            Средства для ухода
-                        </label>
-                        <label>
-                            <input type="radio" name="shaving-staff" value="but3">
-                            Аксессуары
-                        </label>
+                        <ul>
+                            <li>
+                                <label>
+                                    <input type="radio" name="shaving-staff" value="but1">
+                                    Бритвенные принадлежности
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="radio" name="shaving-staff" value="but2" checked>
+                                    Средства для ухода
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="radio" name="shaving-staff" value="but3">
+                                    Аксессуары
+                                </label>
+                            </li>
+                        </ul>
                         <input type="submit" value="Показать">
                     </form>
                 </aside>
@@ -125,19 +151,20 @@
                         <a class="btn" href="#">Купить</a>
                     </div>
                     <ul class="pagination">
-                        <li>1</li>
+                        <li><a>1</a></li>
                         <li><a href="#">2</a></li>
                         <li><a href="#">3</a></li>
                         <li><a href="#">4</a></li>
                     </ul>
                 </section>
+                </div>
                 <footer class="main-footer">
-                    <div class="wrapper">
+                    <div class="wrapper clearfix">
                         <section class="footer-contacts">
                             Барбершоп «Бородинский»<br>
                             Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
                             <a href="#">Как нас найти?</a><br>
-                            Телефон: +7 (812) 666-02-66
+                            <a href="tel:+7(812)666-02-66">Телефон: +7 (812) 666-02-66</a>
                         </section>
                         <section class="footer-social">
                             <p>Давайте дружить!</p>
@@ -151,7 +178,6 @@
                         </section>
                     </div>
                 </footer>
-            </div>
         </main>
     </body>
 </html>
